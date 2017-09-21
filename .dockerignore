@@ -1,0 +1,8 @@
+.buildpath
+.git
+.gitignore
+.project
+.pydevproject
+.settings
+.travis.yml
+Dockerfile
