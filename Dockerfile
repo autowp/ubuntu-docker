@@ -3,7 +3,7 @@ FROM ubuntu
 LABEL maintainer="dmitry@pereslegin.ru"
 
 RUN apt-get -qq update -y \
-    apt-get -qq dist-upgrade -y \
+    && apt-get -qq dist-upgrade -y \
     && apt-get-qq install -y \
         apt-transport-https \
         ca-certificates \
